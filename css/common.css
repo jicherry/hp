@@ -11,6 +11,7 @@
 
 #main_header {
     display: flex;
+    position: fixed;
 }
 
 #main_header .logo{
