@@ -1,42 +1,57 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 *{ 
-    font-family: 'Poor Story', cursive;
     list-style: none;
     text-decoration: none;
-    border-collapse: collapse;
-    margin: 5px;
-    padding: 5px;
     color: #000;
-
+    margin: 0; padding: 0;
 }
 
-.header{
+#main_header {
     display: flex;
 }
 
-.nav{
+#main_header .logo{
+    font-size: 35px;
+    line-height: 120px;
+    width: 300px;
+}
+
+#main_header .nav{
     display: flex;
-    margin-left: 200px;
     font-size: 25px;
 }
 
-.nav li{
-    width: 200px;
+#main_header .nav li{
+    width: 220px;
+    line-height: 120px;
 }
 
-.screen{
-    background-color: azure;
-    width: -100%;
-    height: 1000px;
+#main_header .icons{
+    display: flex;
+    font-size: 25px;
+    line-height: 120px;
 }
 
-.screen img{
-    display: flex; 
-    margin: 0px auto;
-    width: 500px;
-    height: 500px;
+#main_footer{
+    display: flex;
+    background-color: #E2D7CD;
+    height: 250px;
 }
+
+.infor h3{
+    color: white;
+    text-align: right;
+}
+
+.infor ul li a{
+    color: white;
+    text-align: center;
+}
+    
+
 
 
 
