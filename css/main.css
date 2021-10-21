@@ -67,4 +67,7 @@
 
 .image{
     display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
