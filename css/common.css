@@ -41,7 +41,7 @@ ul { list-style: none; }
 #main_footer {
     display: flex;
     background-color: #E2D7CD;
-    height: 250px;
+    height: 200px;
 }
 
 .info {
