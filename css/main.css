@@ -32,22 +32,25 @@
     background-position:center;
 }
 
-#main_container > .content.membership {
-    height: 930px;
-    line-height:930px;
+#main_container > .content.about {
+    height: 1000px;
+    line-height:1000px;
     text-align: center;
+    background-color: white;
 }
 
-#main_container > .content.membership img {
-    height: 660px;
+#main_container > .content.about img {
+    height: 1000px;
     vertical-align: middle;
 } 
 
 #main_container > .content.favorite {
     height: 800px;
 
+
 }
 
 #main_container > .content.water_video {
     height: 500px;
+
 }
