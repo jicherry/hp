@@ -2,7 +2,7 @@
 
 #main_container > .content {
     margin-top: 50px;
-    background: blanchedalmond;
+    /* background: blanchedalmond; */
 }
 
 #main_container > .content.main_slider {
@@ -45,12 +45,34 @@
 } 
 
 #main_container > .content.favorite {
-    height: 800px;
+    height: 650px;
+}
 
+#main_container > .content.favorite > h2 {
+    text-align: center;
+}
 
+#main_container > .content.favorite > .favorite_img {
+    display: flex;
+    justify-content: center;
+}
+
+#main_container > .content.favorite > .favorite_img > div {
+    margin: 0 20px;
+}
+
+#main_container > .content.favorite img {
+    width: 450px;
 }
 
 #main_container > .content.water_video {
     height: 500px;
 
+}
+
+/* 스위퍼 버튼 */
+
+.swiper-button-prev.swiper-button-custom,
+.swiper-button-next.swiper-button-custom {
+  --swiper-navigation-color: #ffffff;
 }
