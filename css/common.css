@@ -20,22 +20,28 @@ ul { list-style: none; }
     font-size: 35px;
     line-height: 120px;
     width: 300px;
+    font-family: 'Black Han Sans', sans-serif;
+    @import url();
 }
 
 #main_header .nav {
     display: flex;
     font-size: 25px;
+    position: absolute;
+    left: 350px;
 }
 
 #main_header .nav li {
     width: 220px;
-    line-height: 120px;
+    line-height: 120px; 
 }
 
 #main_header .icons {
     display: flex;
     font-size: 25px;
     line-height: 120px;
+    position: absolute;
+    right: 100px;
 }
 
 #main_footer {
