@@ -65,6 +65,7 @@
     margin-top: 100px;
     font-family: 'Black Han Sans', sans-serif;
     @import url();
+    font-weight: bold;
 }
 
 #main_container > .content.favorite > .favorite_img {
