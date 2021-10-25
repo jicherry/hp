@@ -1,0 +1,23 @@
+@charset "UFT-8";
+
+* {
+    margin: 0; padding: 0;
+}
+
+#main_surebase > .surebase img {
+    height: 800px;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+#main_surebase > .kits img {
+    height: 800px;
+}

@@ -1,6 +1,5 @@
 @charset "UFT-8";
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 
@@ -34,9 +33,8 @@ ul { list-style: none; }
 }
 
 #main_header .nav li {
-    width: 250px;
     margin: auto;
-    
+    padding: 55px;
 }
 
 #main_header .icons {
