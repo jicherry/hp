@@ -1,1 +1,15 @@
 @charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Nanum Gothic', sans-leserif;
+}
+a { text-decoration: none !important; color: black; }
+img { border: 0; }
+ul { list-style: none; }
+
+#main_header {
+    background-color: #E2D7CD;
+}

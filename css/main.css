@@ -12,7 +12,6 @@
 
 #main_container > .content.main_slider img {
     height: 100%;
-    /* width: 100%; */
 }
 
 #main_container > .content.main_slider > .swiper-container {
@@ -32,6 +31,12 @@
     background-position:center;
 }
 
+#main_container > .content.main_slider > .swiper-container .swiper-slide.slide3 {
+    background: url(../images/main_slider3.png);
+    background-size: cover;
+    background-position:center;
+}
+
 #main_container > .content.about {
     height: 1000px;
     background-color: white;
@@ -42,35 +47,47 @@
 }
 
 #main_container > .content.about img {
-    height: 1000px;
+    height: 650px;
     vertical-align: middle;
+    margin-top: -200px;
 } 
 
+/* #main_container > .content.about a {
+    border: 1.5px solid #3C3B45;
+    box-sizing: border-box;
+} */
+
 #main_container > .content.favorite {
-    height: 650px;
+    height: 450px;
 }
 
-#main_container > .content.favorite > h2 {
+#main_container > .content.favorite h2 {
     text-align: center;
+    margin-bottom: -80px;
+    font-weight: bold;
 }
 
 #main_container > .content.favorite > .favorite_img {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #main_container > .content.favorite > .favorite_img > div {
-    margin: 0 20px;
+    margin: 0 150px;
 }
 
 #main_container > .content.favorite img {
-    width: 450px;
+    width: 400px;
 }
 
 #main_container > .content.water_video {
     /* height: 500px; */
-
 }
+
+/* #main_container > .content.water_video {
+    height: 100px;
+} */
 
 .playerBox {
     background: #000;
@@ -84,5 +101,5 @@
 
 .swiper-button-prev.swiper-button-custom,
 .swiper-button-next.swiper-button-custom {
-  --swiper-navigation-color: #ffffff;
+--swiper-navigation-color: #dddedf;
 }
