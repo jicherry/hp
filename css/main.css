@@ -1,7 +1,7 @@
 @charset "UFT-8";
 
 #main_container > .content {
-    margin-top: 200px;
+    margin-top: 400px;
     /* background: blanchedalmond; */
 }
 
@@ -38,8 +38,8 @@
 }
 
 #main_container > .content.about {
-    height: 1000px;
-    background-color: white;
+    height: 800px;
+    margin-top: 200px;
 }
 
 #main_container > .content.about > div {
@@ -47,47 +47,50 @@
 }
 
 #main_container > .content.about img {
-    height: 650px;
+    height: 600px;
     vertical-align: middle;
-    margin-top: -200px;
 } 
 
-/* #main_container > .content.about a {
+#main_container > .content.about button {
+    width: 195px;
+    height: 40px;
+    background-color: white;
     border: 1.5px solid #3C3B45;
-    box-sizing: border-box;
-} */
+    margin-top: 50px;
+}
 
 #main_container > .content.favorite {
-    height: 450px;
+    height: 500px;
 }
 
 #main_container > .content.favorite h2 {
     text-align: center;
-    margin-bottom: -80px;
+    margin-top: -200px;
     font-weight: bold;
+    font-size: 35px;
 }
 
 #main_container > .content.favorite > .favorite_img {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 #main_container > .content.favorite > .favorite_img > div {
-    margin: 0 150px;
+    margin: 50px 200px;
 }
 
 #main_container > .content.favorite img {
-    width: 400px;
+    width: 500px;
 }
 
-#main_container > .content.water_video {
-    /* height: 500px; */
+#main_container > .content.favorite p {
+    text-align: center;
 }
 
-/* #main_container > .content.water_video {
-    height: 100px;
+/* #main_container > .content.favorite > .favorite.pink:hover{
+    background:url('../images/pink_back.png') no-repeat;
 } */
+
 
 .playerBox {
     background: #000;
@@ -102,4 +105,10 @@
 .swiper-button-prev.swiper-button-custom,
 .swiper-button-next.swiper-button-custom {
 --swiper-navigation-color: #dddedf;
+}
+
+@media screen and (max-width: 700px) {
+    #main_container > content.main_slider > div {
+        width: 100%;
+    }
 }

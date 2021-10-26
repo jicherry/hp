@@ -47,6 +47,7 @@ ul { list-style: none; }
     display: flex;
     background-color: #E2D7CD;
     height: 200px;
+    margin-top: -5px;
 }
 
 .info {
