@@ -1,15 +1,23 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 * {
     margin: 0; padding: 0;
+    font-family: 'Nanum Gothic', sans-leserif;
 }
+
+a { text-decoration: none !important; color: black; }
+img { border: 0; }
+ul { list-style: none; }
 
 #main_surebase > .surebase img {
-    height: 800px;
-    background-size: cover;
+    width: 100%;
 }
 
-
+#main_surebase > .surebase content img {
+    height: 500px;
+}
 
 
 
@@ -19,5 +27,6 @@
 
 
 #main_surebase > .kits img {
-    height: 800px;
+    width: 99.99%;
+    margin-bottom: -5px;
 }

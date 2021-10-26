@@ -60,9 +60,7 @@
 
 #main_container > .content.favorite h2 {
     text-align: center;
-    margin-top: 100px;
-    font-family: 'Black Han Sans', sans-serif;
-    @import url();
+    margin-bottom: -80px;
     font-weight: bold;
 }
 

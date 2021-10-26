@@ -13,9 +13,7 @@ ul { list-style: none; }
 
 #main_header {
     display: flex;
-    /* position: fixed;
-    width: 100px;
-    top: 0; */
+    /* position: fixed; */
 }
 
 #main_header .logo a {
