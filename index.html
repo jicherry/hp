@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./library/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="./library/swiper/swiper.min.css">
+    <link href="./library/YTPPlayer/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
 </head>
 <body>
     <!-- 헤더 -->
@@ -44,22 +45,30 @@
             <!-- <img src="./images/main_slider1.png" alt="슬라이드"> -->
         </section>
         <section class="content about">
-            <img src="./images/about.png" alt="completone">
+            <div>
+                <img src="./images/about.png" alt="completone">
+            </div>
+            <div>
+                <button>ABOUT US</button>
+            </div>
         </section>
         <section class="content favorite">
             <h2>FAVORITE THING</h2>
             <div class="favorite_img">
-                <div>
+                <div class="favorite_pink">
                     <img src="./images/pink.jpg">
                     <p>BLACK BLOSSOM DROP<br>SKIN FORTIFYING & BALANCING</p>
                 </div>
-                <div>
+                <div class="favorite_hand">
                     <img src="./images/hand.jpg">
                     <p>BLACK BLOSSOM HAND SERUM<br>SKIN FORTIFYING & BALANCING</p>
                 </div>
             </div>
         </section>
-        <section class="content water_video"></section>
+        <section class="content water_video">
+            <div class="playerBox" id="v1" style="background: #7698c6;"></div>
+            <div id="p1" class="player" data-property="{videoURL:'7Nuj5140aLE', containment:'#v1', showControls:false, autoPlay:true, loop:2, mute:true, startAt:9, stopAt:100, opacity:1, quality:'default', playOnlyIfVisible: true}"></div>
+        </section>
     </div>
     <!-- 푸터 -->
     <footer id="main_footer">
@@ -103,6 +112,8 @@
             </ul>
         </div>
     </footer>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./library/YTPPlayer/jquery.mb.YTPlayer.min.js"></script>
 <script src="./library/swiper/swiper.min.js"></script>
 <!-- <script src="./js/common.js"></script> -->
 <script src="./js/main.js"></script>

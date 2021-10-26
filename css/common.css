@@ -46,6 +46,7 @@ ul { list-style: none; }
 
 .info {
     flex: 1;
+    padding-top: 50px;
 }
 
 .info > h3 {
