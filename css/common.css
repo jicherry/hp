@@ -19,8 +19,6 @@ ul { list-style: none; }
 #main_header .logo a {
     font-size: 45px; 
     line-height: 120px;
-    font-family: 'Black Han Sans', sans-serif;
-    @import url();
     font-weight: bold;
     margin: 50px;
 }
@@ -35,13 +33,13 @@ ul { list-style: none; }
     padding: 55px;
 }
 
-#main_header .icons {
+/* #main_header .icons {
     display: flex;
     font-size: 30px;
     line-height: 120px;
     position: absolute;
     right: 100px;
-}
+} */
 
 #main_footer {
     display: flex;
@@ -69,3 +67,78 @@ ul { list-style: none; }
     text-align: center;
 }
 
+@media screen and (min-width:1024px) {
+    #main_header .logo a {
+        font-size: 45px; 
+        line-height: 120px;
+        font-weight: bold;
+        margin: 50px;
+    }
+
+    #main_header .nav {
+        display: flex;
+        font-size: 25px;
+    }
+
+    #main_header .nav li {
+        margin: auto;
+        padding: 55px;
+    }
+
+    .info > h3 {
+        text-align: center;
+    }
+
+    .info > ul {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #main_header .logo a {
+        font-size: 30px; 
+    }
+
+    #main_header .nav {
+        font-size: 20px;
+    }
+
+    #main_header .nav li {
+        padding: 15px;
+    }
+
+    .info > h3 {
+        font-size: 15px;
+    }
+
+    .info > ul {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    #main_header {
+        flex-direction: column;
+    }
+
+    #main_header .logo a {
+        font-size: 20px; 
+    }
+
+    #main_header .nav {
+        font-size: 15px;
+    }
+
+    #main_header .nav li {
+        padding: 10px;
+    }
+
+    .info > h3 {
+        font-size: 10px;
+    }.
+
+    .info > ul {
+        font-size: 10px;
+    }
+}

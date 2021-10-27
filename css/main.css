@@ -75,6 +75,11 @@
     justify-content: center;
 }
 
+#main_container > .content.favorite > .favorite_img:last-child{display:none} 
+#main_container > .content.favorite > .favorite_img:hover img:first-child{display:none} 
+#main_container > .content.favorite > .favorite_img:last-child{display:flex}
+
+
 #main_container > .content.favorite > .favorite_img > div {
     margin: 50px 200px;
 }
@@ -86,6 +91,7 @@
 #main_container > .content.favorite p {
     text-align: center;
 }
+
 
 /* #main_container > .content.favorite > .favorite.pink:hover{
     background:url('../images/pink_back.png') no-repeat;
@@ -107,8 +113,78 @@
 --swiper-navigation-color: #dddedf;
 }
 
-@media screen and (max-width: 700px) {
-    #main_container > content.main_slider > div {
-        width: 100%;
+@media screen and (min-width: 1024px) {
+    
+        
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #main_container > .content.main_slider > .swiper-container .swiper-slide.slide1 {
+        background: url(../images/mini_slider1.png);
+        background-size: cover;
+        background-position:center;
     }
+
+    #main_container > .content.main_slider > .swiper-container .swiper-slide.slide2 {
+        background: url(../images/mini_slider2.png);
+        background-size: cover;
+        background-position:center;
+    }
+
+    #main_container > .content.main_slider > .swiper-container .swiper-slide.slide3 {
+        background: url(../images/mini_slider3.png);
+        background-size: cover;
+        background-position:center;
+    }
+
+    #main_container > .content.favorite h2 {
+        font-size: 25px;
+    }
+
+    #main_container > .content.favorite > .favorite_img > div {
+        margin: 30px;
+    }
+    
+    #main_container > .content.favorite p {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width:767px) {
+    #main_container > .content.main_slider > .swiper-container .swiper-slide.slide1 {
+        background: url();
+        background-size: cover;
+        background-position:center;
+    }
+
+    #main_container > .content.main_slider > .swiper-container .swiper-slide.slide2 {
+        background: url();
+        background-size: cover;
+        background-position:center;
+    }
+
+    #main_container > .content.main_slider > .swiper-container .swiper-slide.slide3 {
+        background: url();
+        background-size: cover;
+        background-position:center;
+    }
+
+    #main_container > .content.favorite h2 {
+        font-size: 20px;
+    }
+
+    #main_container > .content.favorite > .favorite_img > div {
+        margin: 5px;
+    }
+    
+    #main_container > .content.favorite p {
+        text-align: center;
+        font-size: 10px;
+    }
+
 }
