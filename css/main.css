@@ -2,7 +2,6 @@
 
 #main_container > .content {
     margin-top: 400px;
-    /* background: blanchedalmond; */
 }
 
 #main_container > .content.main_slider {
@@ -75,9 +74,17 @@
     justify-content: center;
 }
 
-#main_container > .content.favorite > .favorite_img:last-child{display:none} 
-#main_container > .content.favorite > .favorite_img:hover img:first-child{display:none} 
-#main_container > .content.favorite > .favorite_img:last-child{display:flex}
+#main_container > .content.favorite > .favorite_pink img:last-child { 
+    display:none
+} 
+
+#main_container > .content.favorite > .favorite_img:hover img:first-child {
+    display:none
+} 
+
+#main_container > .content.favorite > .favorite_img:last-child {
+    display:flex
+}
 
 
 #main_container > .content.favorite > .favorite_img > div {
@@ -91,11 +98,6 @@
 #main_container > .content.favorite p {
     text-align: center;
 }
-
-
-/* #main_container > .content.favorite > .favorite.pink:hover{
-    background:url('../images/pink_back.png') no-repeat;
-} */
 
 
 .playerBox {
@@ -114,7 +116,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
         
 }
 
@@ -123,22 +124,54 @@
         background: url(../images/mini_slider1.png);
         background-size: cover;
         background-position:center;
+        width: 600px;
+        height: 550px;
     }
 
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide2 {
         background: url(../images/mini_slider2.png);
         background-size: cover;
         background-position:center;
+        width: 600px;
+        height: 550px;
     }
 
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide3 {
         background: url(../images/mini_slider3.png);
         background-size: cover;
         background-position:center;
+        width: 600px;
+        height: 550px;
+    }
+
+    .swiper-button-prev.swiper-button-custom,
+    .swiper-button-next.swiper-button-custom {
+        position: absolute;
+        top: 35%;
+    }
+
+    #main_container > .content {
+        margin-top: 150px;
+    }
+
+    #main_container > .content.about {
+        margin-top: -220px;
+    }
+
+    #main_container > .content.about img {
+        vertical-align: middle;
+        width: 500px;
+        height: 400px;
+    }
+
+    #main_container > .content.about button {
+        width: 130px;
+        height: 30px;
+        margin-top: 50px;
     }
 
     #main_container > .content.favorite h2 {
-        font-size: 25px;
+        font-size: 25px; 
     }
 
     #main_container > .content.favorite > .favorite_img > div {
@@ -149,29 +182,49 @@
         text-align: center;
         font-size: 12px;
     }
-    
 
-
-
+    #main_container > .content.favorite img {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width:767px) {
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide1 {
-        background: url();
+        background: url(../images/main_slider1.png);
         background-size: cover;
         background-position:center;
+        width: 400px;
+        height: 300px;
     }
 
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide2 {
-        background: url();
+        background: url(../images/mini_slider2.png);
         background-size: cover;
         background-position:center;
+        width: 400px;
+        height: 300px;
     }
 
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide3 {
-        background: url();
+        background: url(../images/mini_slider3.png);
         background-size: cover;
         background-position:center;
+        width: 400px;
+        height: 300px;
+    }
+
+    .swiper-button-prev.swiper-button-custom,
+    .swiper-button-next.swiper-button-custom {
+        position: absolute;
+        top: 20%;
+    }
+
+    #main_container > .content {
+        margin-top: 50px;
+    }
+
+    #main_container > .content.about {
+        margin-top: -500px;
     }
 
     #main_container > .content.favorite h2 {
@@ -185,6 +238,22 @@
     #main_container > .content.favorite p {
         text-align: center;
         font-size: 10px;
+    }
+
+    #main_container > .content.favorite img {
+        width: 250px;
+    }
+
+    #main_container > .content.about img {
+        vertical-align: middle;
+        width: 400px;
+        height: 300px;
+    }
+
+    #main_container > .content.about button {
+        width: 110px;
+        height: 25px;
+        margin-top: 50px;
     }
 
 }
