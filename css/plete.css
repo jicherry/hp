@@ -11,12 +11,38 @@ a { text-decoration: none !important; color: black; }
 img { border: 0; }
 ul { list-style: none; }
 
-#main_surebase > .surebase img {
-    width: 100%;
+#main_surebase > .surebase_slider {
+    height: 1123px;
 }
 
-#main_surebase > .surebase content img {
-    height: 500px;
+#main_surebase > .surebase_slider img {
+    height: 100%;
+}
+
+#main_surebase > .surebase_slider > .swiper-slide.slide1 {
+    background: url(../images/girls.png);
+    background-size: cover;
+    background-position:center;
+}
+
+#main_surebase > .surebase_slider > .swiper-slide.slide2 {
+    background: url(../images/girls2.png);
+    background-size: cover;
+    background-position:center;
+}
+
+#main_surebase > .surebase_content {
+    height: 2800px;
+}
+
+#main_surebase > .surebase_content img {
+    margin-top: 200px;
+    height: 750px;
+}
+
+#main_surebase > .surebase_content > .glad img {
+    position: absolute;
+    left: 65%;
 }
 
 
