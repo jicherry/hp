@@ -13,18 +13,100 @@ ul { list-style: none; }
 #main_header {
     background-color: #E2D7CD;
 }
-
-.memu {
-    width: 50px;
-    height: 50px;
+.menu img {
+    width: 100%;
 }
 
-.serumkind img {
-    display: flex;
+.serumkind > .muscat img {
+    height: 600px;
+    padding-left: 200px;
+    margin-top: 100px;
 }
 
-.serumkind p {
-    text-align: center;
+.serumkind > .muscat p {
+    position: absolute;
+    left: 390px;
 }
 
+.serumkind > .youth img {
+    height: 600px;
+    position: absolute;
+    right: 200px;
+    top: 400px;
+}
 
+.serumkind > .youth p {
+    position: absolute;
+    right: 370px;
+    
+}
+
+.serumkind > .yellomello img {
+    height: 600px;
+    padding-left: 200px;
+    margin-top: 150px;
+}
+
+.serumkind > .yellomello p {
+    position: absolute;
+    left: 390px;
+
+}
+
+.serumkind > .purple img {
+    height: 600px;
+    position: absolute;
+    right: 200px;
+    top: 1150px;
+}
+
+.serumkind > .purple p {
+    position: absolute;
+    right: 330px;   
+}
+
+.serumkind > .deep img {
+    height: 600px;
+    padding-left: 200px;
+    margin-top: 160px;
+}
+
+.serumkind > .deep p {
+    position: absolute;
+    left: 390px;
+}
+
+.serumkind > .chaga img {
+    height: 600px;
+    position: absolute;
+    right: 190px;
+    top: 1920px;
+}
+
+.serumkind > .chaga p {
+    position: absolute;
+    right: 300px;
+}
+
+.serumkind > .lip img {
+    height: 600px;
+    padding-left: 180px;
+    margin-top: 160px;
+}
+
+.serumkind > .lip p {
+    position: absolute;
+    left: 350px;
+}
+
+.serumkind > .bag img {
+    height: 600px;
+    position: absolute;
+    right: 170px;
+    top: 2700px;
+}
+
+.serumkind > .bag p {
+    position: absolute;
+    right: 300px;
+}

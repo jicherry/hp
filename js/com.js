@@ -9,3 +9,5 @@ var swiper = new Swiper('.swiper-container', {
     speed: 2000,
     effect: "fade"
   });
+
+jQuery(".player").YTPlayer();
