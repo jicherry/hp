@@ -74,13 +74,86 @@
     justify-content: center;
 }
 
-#main_container > .content.favorite > .favorite_pink img:last-child { 
+#main_container > .content.favorite > .favorite_img .bak {
+
+    height: 400px;
+    width: 350px;
+}
+
+#main_container > .content.favorite .favorite_pink > .favorite_pink_bak {
+    background: url("../images/mpb.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#main_container > .content.favorite .favorite_hand > .favorite_hand_bak {
+    background: url("../images/hand.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#main_container > .content.favorite .favorite_pink > .favorite_pink_bak:hover {
+    background: url("../images/mpbb.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+#main_container > .content.favorite .favorite_hand > .favorite_hand_bak:hover {
+    background: url("../images/hand_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* #main_container > .content.favorite > .favorite_pink img:last-child { 
     display:none
 } 
 
 #main_container > .content.favorite > .favorite_img:hover img:first-child {
     display:none
-} 
+}  */
 
 #main_container > .content.favorite > .favorite_img:last-child {
     display:flex
@@ -88,7 +161,7 @@
 
 
 #main_container > .content.favorite > .favorite_img > div {
-    margin: 50px 200px;
+    margin: 50px 100px;
 }
 
 #main_container > .content.favorite img {
