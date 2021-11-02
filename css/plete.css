@@ -19,6 +19,10 @@ ul { list-style: none; }
     height: 100%;
 }
 
+#main_surebase > .surebase_content {
+    height: 2400px;
+}
+
 #main_surebase > .surebase_slider > .swiper-slide.slide1 {
     background: url(../images/girls.png);
     background-size: cover;
@@ -31,26 +35,125 @@ ul { list-style: none; }
     background-position:center;
 }
 
-#main_surebase > .surebase_content {
-    height: 2800px;
-}
-
-#main_surebase > .surebase_content img {
-    margin-top: 200px;
-    height: 750px;
-}
-
-#main_surebase > .surebase_content > .glad img {
+#main_surebase > .surebase_content > .nudy > .nudybak {
+    background: url("../images/nudy.jpg");
+    background-size: cover;
     position: absolute;
-    left: 65%;
+    left: 200px;
+    width: 600px;
+    height: 700px;
+    margin-top: 150px;
 }
 
+#main_surebase > .surebase_content > .glad > .gladbak {
+    background: url("../images/glad.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 300px;
+    top: 2100px;
+    width: 600px;
+    height: 700px;
+    margin-top: 100px;
+}
 
+#main_surebase > .surebase_content > .sun > .sunbak {
+    background: url("../images/sun.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 200px;
+    top: 2800px;
+    width: 600px;
+    height: 700px;
+    margin-top: 150px;
+}
 
+.surebase_content > .nudy > .nudybak:hover {
+    background: url("../images/nudy_back.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 200px;
+    width: 600px;
+    height: 700px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
 
+.surebase_content > .glad > .gladbak:hover {
+    background: url("../images/glad_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
 
+.surebase_content > .sun > .sunbak:hover {
+    background: url("../images/sun_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+.playerBox {
+    background: #000;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#main_surebase > .surebase_content > .nudybak > .p {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#main_surebase > .surebase_content > .gladbak > .p {
+
+}
+
+#main_surebase > .surebase_content > .sunbak > .p {
+
+}
 
 #main_surebase > .kits img {
     width: 99.99%;

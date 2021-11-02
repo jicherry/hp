@@ -75,7 +75,6 @@
 }
 
 #main_container > .content.favorite > .favorite_img .bak {
-
     height: 400px;
     width: 350px;
 }
@@ -84,14 +83,12 @@
     background: url("../images/mpb.jpg");
     background-size: cover;
     background-position: center;
-
 }
 
 #main_container > .content.favorite .favorite_hand > .favorite_hand_bak {
     background: url("../images/hand.jpg");
     background-size: cover;
     background-position: center;
-
 }
 
 #main_container > .content.favorite .favorite_pink > .favorite_pink_bak:hover {
@@ -146,14 +143,6 @@
         opacity: 1;
     }
 }
-
-/* #main_container > .content.favorite > .favorite_pink img:last-child { 
-    display:none
-} 
-
-#main_container > .content.favorite > .favorite_img:hover img:first-child {
-    display:none
-}  */
 
 #main_container > .content.favorite > .favorite_img:last-child {
     display:flex

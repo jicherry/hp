@@ -19,94 +19,116 @@ ul { list-style: none; }
 
 .serumkind > .muscat img {
     height: 600px;
-    padding-left: 200px;
-    margin-top: 100px;
+    position: absolute;
+    left: 280px;
+    margin-top: 150px;
 }
 
 .serumkind > .muscat p {
     position: absolute;
-    left: 390px;
+    left: 460px;
+    top: 100%;
+    line-height: 25px;
 }
 
 .serumkind > .youth img {
     height: 600px;
     position: absolute;
-    right: 200px;
-    top: 400px;
+    right: 300px;
+    margin-top: 150px;
 }
 
 .serumkind > .youth p {
     position: absolute;
-    right: 370px;
-    
+    right: 470px;
+    top: 100%;
+    line-height: 25px;    
 }
 
 .serumkind > .yellomello img {
     height: 600px;
-    padding-left: 200px;
-    margin-top: 150px;
+    position: absolute;
+    left: 280px;
+    top: 120%;
 }
 
 .serumkind > .yellomello p {
     position: absolute;
-    left: 390px;
-
+    left: 480px;
+    top: 172%;
+    line-height: 25px;
 }
 
 .serumkind > .purple img {
     height: 600px;
     position: absolute;
-    right: 200px;
-    top: 1150px;
+    right: 300px;
+    top: 120%;
 }
 
 .serumkind > .purple p {
     position: absolute;
-    right: 330px;   
+    right: 430px;
+    top: 172%;
+    line-height: 25px; 
 }
 
 .serumkind > .deep img {
     height: 600px;
-    padding-left: 200px;
-    margin-top: 160px;
+    position: absolute;
+    left: 280px;
+    top: 190%;
 }
 
 .serumkind > .deep p {
     position: absolute;
-    left: 390px;
+    left: 480px;
+    top: 243%;
+    line-height: 25px;
 }
 
 .serumkind > .chaga img {
     height: 600px;
     position: absolute;
-    right: 190px;
-    top: 1920px;
+    right: 300px;
+    top: 190%;
 }
 
 .serumkind > .chaga p {
     position: absolute;
-    right: 300px;
+    right: 430px;
+    top: 243%;
+    line-height: 25px;
 }
 
 .serumkind > .lip img {
     height: 600px;
-    padding-left: 180px;
-    margin-top: 160px;
+    position: absolute;
+    left: 280px;
+    top: 272%;
 }
 
 .serumkind > .lip p {
     position: absolute;
-    left: 350px;
+    left: 450px;
+    top: 325%;
+    line-height: 25px;
 }
 
 .serumkind > .bag img {
     height: 600px;
     position: absolute;
-    right: 170px;
-    top: 2700px;
+    right: 280px;
+    top: 272%;
 }
 
 .serumkind > .bag p {
     position: absolute;
-    right: 300px;
+    right: 430px;
+    top: 325%;
+    line-height: 25px;
 }
+
+
+
+
