@@ -7,7 +7,7 @@ var swiper = new Swiper('.swiper-container', {
         delay: 2000,
     },
     speed: 2000,
-    effect: "fade"
+    slidesPerView: 4,
+    // effect: "fade"
   });
 
-jQuery(".player").YTPlayer();

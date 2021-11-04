@@ -11,53 +11,47 @@ a { text-decoration: none !important; color: black; }
 img { border: 0; }
 ul { list-style: none; }
 
-#main_surebase > .surebase_slider {
-    height: 1123px;
+#mainsurebase > .content {
+    margin-top: 300px ;
 }
 
-#main_surebase > .surebase_slider img {
+#mainsurebase > .surebase_slider {
+    height: 1500px;
+}
+
+#mainsurebase > .surebase_slider img {
+    width: 100%;
     height: 100%;
 }
 
-#main_surebase > .surebase_content {
+
+#mainsurebase > .surebase_content {
     height: 2400px;
 }
 
-#main_surebase > .surebase_slider > .swiper-slide.slide1 {
-    background: url(../images/girls.png);
-    background-size: cover;
-    background-position:center;
-}
-
-#main_surebase > .surebase_slider > .swiper-slide.slide2 {
-    background: url(../images/girls2.png);
-    background-size: cover;
-    background-position:center;
-}
-
-#main_surebase > .surebase_content > .nudy > .nudybak {
-    background: url("../images/nudy.jpg");
+#mainsurebase > .surebase_content > .nudy > .nudybak {
+    background: url(../images/nudy.jpg);
     background-size: cover;
     position: absolute;
     left: 200px;
     width: 600px;
     height: 700px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
-#main_surebase > .surebase_content > .glad > .gladbak {
-    background: url("../images/glad.jpg");
+#mainsurebase > .surebase_content > .glad > .gladbak {
+    background: url(../images/glad.jpg);
     background-size: cover;
     position: absolute;
     right: 300px;
     top: 2100px;
     width: 600px;
     height: 700px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
-#main_surebase > .surebase_content > .sun > .sunbak {
-    background: url("../images/sun.jpg");
+#mainsurebase > .surebase_content > .sun > .sunbak {
+    background: url(../images/sun.jpg);
     background-size: cover;
     position: absolute;
     left: 200px;
@@ -68,12 +62,13 @@ ul { list-style: none; }
 }
 
 .surebase_content > .nudy > .nudybak:hover {
-    background: url("../images/nudy_back.jpg");
+    background: url(../images/nudy_back.jpg);
     background-size: cover;
     position: absolute;
     left: 200px;
     width: 600px;
     height: 700px;
+    margin-top: 150px;
     animation: fadein 1s;
     -moz-animation: fadein 1s; /* Firefox */
     -webkit-animation: fadein 1s; /* Safari and Chrome */
@@ -81,7 +76,7 @@ ul { list-style: none; }
 }
 
 .surebase_content > .glad > .gladbak:hover {
-    background: url("../images/glad_back.jpg");
+    background: url(../images/glad_back.jpg);
     background-size: cover;
     background-position: center;
     animation: fadein 1s;
@@ -91,7 +86,7 @@ ul { list-style: none; }
 }
 
 .surebase_content > .sun > .sunbak:hover {
-    background: url("../images/sun_back.jpg");
+    background: url(../images/sun_back.jpg);
     background-size: cover;
     background-position: center;
     animation: fadein 1s;
@@ -141,21 +136,29 @@ ul { list-style: none; }
     display: inline-block;
 }
 
-#main_surebase > .surebase_content > .nudybak > .p {
+.surebase_content > .nudy >.p {
     position: absolute;
-    left: 200px;
+    left: 500px;
     top: 200px;
 }
 
-#main_surebase > .surebase_content > .gladbak > .p {
+#mainsurebase > .surebase_content > .gladbak > .p { 
+    
+}
+
+#mainsurebase > .surebase_content > .sunbak > .p {
 
 }
 
-#main_surebase > .surebase_content > .sunbak > .p {
-
-}
-
-#main_surebase > .kits img {
+#mainsurebase > .kits img {
     width: 99.99%;
     margin-bottom: -5px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+}
+
+@media screen and (max-width:767px) {
+    
 }
