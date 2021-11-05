@@ -136,13 +136,12 @@ ul { list-style: none; }
     display: inline-block;
 }
 
-.surebase_content > .nudy >.p {
+#mainsurebase > .surebase_content > .nudybak p { 
     position: absolute;
-    left: 500px;
-    top: 200px;
+    
 }
 
-#mainsurebase > .surebase_content > .gladbak > .p { 
+#mainsurebase > .surebase_content > .gladbak p { 
     
 }
 
