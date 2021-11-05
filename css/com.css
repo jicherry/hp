@@ -152,42 +152,66 @@ ul { list-style: none; }
 
 .serumkind .muscat p {
     position: absolute;
-    left: 500px;
+    left: 415px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .youth p {
     position: absolute;
-    right: 550px;
+    right: 450px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .yellomello p {
     position: absolute;
-    left: 500px;
+    left: 440px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .purple p {
     position: absolute;
-    right: 500px;
+    right: 405px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .deep p {
     position: absolute;
     left: 500px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .chaga p {
     position: absolute;
     right: 500px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .lip p {
     position: absolute;
     left: 480px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 .serumkind .bag p {
     position: absolute;
     right: 520px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
 }
 
 #low_slider > .swiper-container {

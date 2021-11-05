@@ -16,7 +16,7 @@ ul { list-style: none; }
 }
 
 #mainsurebase > .surebase_slider {
-    height: 1500px;
+    height: 1200px;
 }
 
 #mainsurebase > .surebase_slider img {
@@ -26,17 +26,18 @@ ul { list-style: none; }
 
 
 #mainsurebase > .surebase_content {
-    height: 2400px;
+    height: 2700px;
 }
 
 #mainsurebase > .surebase_content > .nudy > .nudybak {
     background: url(../images/nudy.jpg);
     background-size: cover;
     position: absolute;
+    top: 1600px;
     left: 200px;
-    width: 600px;
-    height: 700px;
-    margin-top: 50px;
+    width: 650px;
+    height: 750px;
+    margin-top: -50px;
 }
 
 #mainsurebase > .surebase_content > .glad > .gladbak {
@@ -45,9 +46,9 @@ ul { list-style: none; }
     position: absolute;
     right: 300px;
     top: 2100px;
-    width: 600px;
-    height: 700px;
-    margin-top: 200px;
+    width: 650px;
+    height: 750px;
+    margin-top: 350px;
 }
 
 #mainsurebase > .surebase_content > .sun > .sunbak {
@@ -55,10 +56,10 @@ ul { list-style: none; }
     background-size: cover;
     position: absolute;
     left: 200px;
-    top: 2800px;
-    width: 600px;
-    height: 700px;
-    margin-top: 150px;
+    top: 2810px;
+    width: 650px;
+    height: 750px;
+    margin-top: 439px;
 }
 
 .surebase_content > .nudy > .nudybak:hover {
@@ -136,17 +137,31 @@ ul { list-style: none; }
     display: inline-block;
 }
 
-#mainsurebase > .surebase_content > .nudybak p { 
+.surebase_content .nudy p { 
     position: absolute;
-    
+    right: 330px;
+    top: 1820px;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 50px;
 }
 
-#mainsurebase > .surebase_content > .gladbak p { 
-    
+.surebase_content .glad p { 
+    position: absolute;
+    left: 330px;
+    top: 2730px;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 50px;
 }
 
-#mainsurebase > .surebase_content > .sunbak > .p {
-
+.surebase_content .sun p {
+    position: absolute;
+    right: 430px;
+    top: 3500px;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 50px;
 }
 
 #mainsurebase > .kits img {
