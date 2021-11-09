@@ -62,10 +62,10 @@ ul { list-style: none; }
     margin-top: 439px;
 }
 
-.surebase_content > .nudy > .nudybak:hover {
-    background: url(../images/nudy_back.jpg);
+.surebase_content .nudy .nudybak:hover {
+    background: url("../images/nudy_back.jpg");
     background-size: cover;
-    position: absolute;
+    position: center;
     left: 200px;
     width: 600px;
     height: 700px;
@@ -76,8 +76,8 @@ ul { list-style: none; }
     -o-animation: fadein 1s; /* Opera */
 }
 
-.surebase_content > .glad > .gladbak:hover {
-    background: url(../images/glad_back.jpg);
+.surebase_content .glad .gladbak:hover {
+    background: url("../images/glad_back.jpg");
     background-size: cover;
     background-position: center;
     animation: fadein 1s;
@@ -86,8 +86,8 @@ ul { list-style: none; }
     -o-animation: fadein 1s; /* Opera */
 }
 
-.surebase_content > .sun > .sunbak:hover {
-    background: url(../images/sun_back.jpg);
+.surebase_content .sun .sunbak:hover {
+    background: url("../images/sun_back.jpg");
     background-size: cover;
     background-position: center;
     animation: fadein 1s;

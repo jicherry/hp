@@ -184,7 +184,7 @@ ul { list-style: none; }
 
 .serumkind .deep p {
     position: absolute;
-    left: 500px;
+    left: 440px;
     margin-top: -60px;
     font-weight: bolder;
     line-height: 25px;
@@ -192,7 +192,7 @@ ul { list-style: none; }
 
 .serumkind .chaga p {
     position: absolute;
-    right: 500px;
+    right: 390px;
     margin-top: -60px;
     font-weight: bolder;
     line-height: 25px;
@@ -200,7 +200,7 @@ ul { list-style: none; }
 
 .serumkind .lip p {
     position: absolute;
-    left: 480px;
+    left: 405px;
     margin-top: -60px;
     font-weight: bolder;
     line-height: 25px;
@@ -208,7 +208,7 @@ ul { list-style: none; }
 
 .serumkind .bag p {
     position: absolute;
-    right: 520px;
+    right: 410px;
     margin-top: -60px;
     font-weight: bolder;
     line-height: 25px;
@@ -261,6 +261,8 @@ ul { list-style: none; }
         opacity: 1;
     }
 }
+
+
 
 
 @media screen and (min-width:768px) and (max-width:1023px) {
