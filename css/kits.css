@@ -1,0 +1,134 @@
+@charset "UFT-8";
+
+#kits {
+    height: 1000px;
+    display: flex;
+}
+
+.care .care_bak {
+    background: url(../images/care.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 500px;
+    margin: 30px;
+}
+
+.routine .routine_bak {
+    background: url(../images/routine.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 500px;
+    margin: 30px;
+}
+
+.comfort .comfort_bak {
+    background: url(../images/comfort.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 500px;
+    margin: 30px;
+}
+
+.care .care_bak:hover {
+    background: url(../images/care_back.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 500px;
+}
+
+.routine .routine_bak:hover {
+    background: url(../images/routine_back.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 500px;
+}
+
+.comfort .comfort_bak:hover {
+    background: url(../images/comfort_back.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 500px;
+}
+
+#kits > .care p {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+#kits > .routine p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+#kits > .comfort p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 35px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
