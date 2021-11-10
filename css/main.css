@@ -1,5 +1,7 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
 #main_container > .content {
     margin-top: 400px;
 }
@@ -65,7 +67,7 @@
 #main_container > .content.favorite h2 {
     text-align: center;
     margin-top: -200px;
-    font-weight: bold;
+    font-family: 'Black Han Sans', sans-serif;
     font-size: 35px;
 }
 
@@ -159,6 +161,8 @@
 
 #main_container > .content.favorite p {
     text-align: center;
+    line-height: 20px;
+    font-weight: bolder;
 }
 
 
@@ -234,6 +238,7 @@
 
     #main_container > .content.favorite h2 {
         font-size: 25px; 
+        font-family: 'Black Han Sans', sans-serif;
     }
 
     #main_container > .content.favorite > .favorite_img > div {

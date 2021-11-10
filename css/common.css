@@ -1,12 +1,17 @@
 @charset "UFT-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0; padding: 0;
-    font-family: 'Nanum Gothic', sans-leserif;
+    font-family: 'Cafe24SsurroundAir';
 }
+
 a { text-decoration: none !important; color: black; }
 img { border: 0; }
 ul { list-style: none; }

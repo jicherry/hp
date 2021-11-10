@@ -1,0 +1,19 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+#center {
+    height: 1500px;
+}
+
+#center > .center_text p {
+    font-size: 39px;
+    color: #555555;
+    font-family: 'Black Han Sans', sans-serif;
+    line-height: 5;
+    padding-left: 120px;
+}
+
+#center > .center_img {
+    margin-left: 230px;
+}

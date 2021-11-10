@@ -1,0 +1,79 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.text p {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 39px;
+    color: #555555;
+    line-height: 5;
+    padding-left: 120px;
+}
+
+#function {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1430px;
+    height: 2030px;
+    margin: 0 auto;
+}
+
+
+#function > .collabo img {
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+#function > .day img {
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+#function > .sunny img {
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+#function > .collabo p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+    position: absolute;
+    left: 120px;
+
+}
+
+#function > .serum p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+}
+
+#function > .day p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+    position: absolute;
+    left: 120px;
+}
+
+#function > .event p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+}
+
+#function > .sunny p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+    position: absolute;
+    left: 120px;
+}
+
+#function > .feel p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+}
+
