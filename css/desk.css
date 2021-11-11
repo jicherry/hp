@@ -2,18 +2,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
+.text p {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 39px;
+    color: #555555;
+    line-height: 10;
+    padding-left: 230px;
+}
+
 #center {
     height: 1500px;
 }
 
-#center > .center_text p {
-    font-size: 39px;
-    color: #555555;
-    font-family: 'Black Han Sans', sans-serif;
-    line-height: 5;
-    padding-left: 120px;
-}
-
 #center > .center_img {
+    width: 50%;
+    margin: 10px auto;
+    position: relative;
+    top: 10px;
     margin-left: 230px;
 }
+
+#center > .center_text {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#center > .center_text p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Black Han Sans', sans-serif;
+    line-height: 4;
+    padding-left: 180px;
+}
+
+
