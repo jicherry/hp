@@ -78,9 +78,165 @@
     line-height: 35px;
 } 
 
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #kits {
+        height: 600px;
+    }
+    
+    .care .care_bak {
+        background: url(../images/care.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+        width: 210px;
+        margin: 30px;
+    }
+    
+    .routine .routine_bak {
+        background: url(../images/routine.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+        width: 210px;
+        margin: 30px;
+    }
+    
+    .comfort .comfort_bak {
+        background: url(../images/comfort.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+        width: 210px;
+        margin: 30px;
+    }
 
+    .care .care_bak:hover {
+        background: url(../images/care_back.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+        width: 210px;
+    }
+    
+    .routine .routine_bak:hover {
+        background: url(../images/routine_back.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+        width: 210px;
+    }
+    
+    .comfort .comfort_bak:hover {
+        background: url(../images/comfort_back.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 350px;
+        width: 210px;
+    }
 
+    #kits > .care p {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    #kits > .routine p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    #kits > .comfort p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 20px;
+    } 
+}
 
+@media screen and (max-width:767px) {
+    #kits {
+        height: 500px;
+        margin-top: 80px;
+    }
+    
+    .care .care_bak {
+        background: url(../images/care.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 200px;
+        width: 110px;
+        margin: 20px;
+    }
+    
+    .routine .routine_bak {
+        background: url(../images/routine.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 200px;
+        width: 110px;
+        margin: 20px;
+    }
+    
+    .comfort .comfort_bak {
+        background: url(../images/comfort.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 200px;
+        width: 120px;
+        margin: 20px;
+    }
+
+    .care .care_bak:hover {
+        background: url(../images/care_back.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 200px;
+        width: 110px;
+    }
+    
+    .routine .routine_bak:hover {
+        background: url(../images/routine_back.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 200px;
+        width: 110px;
+    }
+    
+    .comfort .comfort_bak:hover {
+        background: url(../images/comfort_back.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 200px;
+        width: 120px;
+    }
+
+    #kits > .care p {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1px;
+        line-height: 20px;
+    }
+    
+    #kits > .routine p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1px;
+        line-height: 20px;
+    }
+    
+    #kits > .comfort p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1px;
+        line-height: 20px;
+    } 
+
+}
 
 
 

@@ -170,9 +170,133 @@ ul { list-style: none; }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
+    #mainsurebase > .surebase_content {
+        height: 1200px;
+    }
+
+    #mainsurebase > .surebase_content > .nudy > .nudybak {
+        background: url(../images/nudy.jpg);
+        background-size: cover;
+        position: absolute;
+        top: 800px;
+        left: 30px;
+        width: 400px;
+        height: 450px;
+        margin-top: -50px;
+    }
     
+    #mainsurebase > .surebase_content > .glad > .gladbak {
+        background: url(../images/glad.jpg);
+        background-size: cover;
+        position: absolute;
+        right: 30px;
+        top: 930px;
+        width: 400px;
+        height: 450px;
+        margin-top: 350px;
+    }
+    
+    #mainsurebase > .surebase_content > .sun > .sunbak {
+        background: url(../images/sun.jpg);
+        background-size: cover;
+        position: absolute;
+        left: 25px;
+        top: 1510px;
+        width: 400px;
+        height: 450px;
+        margin-top: 439px;
+    }
+
+    .surebase_content .nudy p { 
+        position: absolute;
+        right: 25px;
+        top: 870px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .surebase_content .glad p { 
+        position: absolute;
+        left: 130px;
+        top: 1420px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .surebase_content .sun p {
+        position: absolute;
+        right: 130px;
+        top: 2070px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 50px;
+    }
 }
 
 @media screen and (max-width:767px) {
+    #mainsurebase > .surebase_content {
+        height: 630px;
+    }
+
+    #mainsurebase > .surebase_content > .nudy > .nudybak {
+        background: url(../images/nudy.jpg);
+        background-size: cover;
+        position: absolute;
+        top: 600px;
+        left: -50px;
+        width: 250px;
+        height: 350px;
+        margin-top: -50px;
+    }
     
+    #mainsurebase > .surebase_content > .glad > .gladbak {
+        background: url(../images/glad.jpg);
+        background-size: cover;
+        position: absolute;
+        right: 50px;
+        top: 820px;
+        width: 250px;
+        height: 350px;
+        margin-top: 150px;
+    }
+    
+    #mainsurebase > .surebase_content > .sun > .sunbak {
+        background: url(../images/sun.jpg);
+        background-size: cover;
+        position: absolute;
+        left: -45px;
+        top: 1100px;
+        width: 250px;
+        height: 350px;
+        margin-top: 439px;
+    }
+
+    .surebase_content .nudy p { 
+        position: absolute;
+        right: 30px;
+        top: 660px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    
+    .surebase_content .glad p { 
+        position: absolute;
+        left: 40px;
+        top: 1090px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    
+    .surebase_content .sun p {
+        position: absolute;
+        right: 80px;
+        top: 1650px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 30px;
+    }
 }
