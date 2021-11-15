@@ -165,7 +165,6 @@
     font-weight: bolder;
 }
 
-
 .playerBox {
     background: #000;
     height: 800px;
@@ -182,10 +181,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-        
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
+    #main_header > .icons {
+        display: none;
+    }
+
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide1 {
         background: url(../images/mini_slider1.png);
         background-size: cover;
@@ -256,6 +258,10 @@
 }
 
 @media screen and (max-width:767px) {
+    #main_header > .icons {
+        display: none;
+    }
+
     #main_container > .content.main_slider > .swiper-container .swiper-slide.slide1 {
         background: url(../images/main_slider1.png);
         background-size: cover;
@@ -311,6 +317,11 @@
         width: 250px;
     }
 
+    #main_container > .content.favorite > .favorite_img .bak {
+        height: 250px;
+        width: 200px;
+    }
+
     #main_container > .content.about img {
         vertical-align: middle;
         width: 400px;
@@ -322,5 +333,4 @@
         height: 25px;
         margin-top: 50px;
     }
-
-}
+}   

@@ -343,62 +343,78 @@ ul { list-style: none; }
     .serumkind {
         display: flex;
         /* flex-wrap: wrap; */
-        width: 700px;
+        width: 100%;
         margin: 0 auto;
     }
 
     .serumkind .bak {
-        width: 200px;
-        height: 300px;
-        margin: 40px 30px;
+        width: 100px;
+        height: 130px;
+        margin: 40px 23px;
     }
 
     .serumkind .muscat p {
         position: absolute;
-        left: 80px;
-        font-size: 12px;
+        left: 30px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .youth p {
         position: absolute;
-        right: 30px;
-        font-size: 12px;
+        right: 25px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .yellomello p {
         position: absolute;
-        left: 80px;
-        font-size: 12px;
+        left: 190px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .purple p {
         position: absolute;
-        right: 30px;
-        font-size: 12px;
+        right: 300px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .deep p {
         position: absolute;
-        left: 80px;
-        font-size: 12px;
+        left: 180px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .chaga p {
         position: absolute;
-        right: 30px;
-        font-size: 12px;
+        right: 5px;
+        font-size: 6px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .lip p {
         position: absolute;
-        left: 80px;
-        font-size: 12px;
+        left: 25px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
     
     .serumkind .bag p {
         position: absolute;
-        right: 30px;
-        font-size: 12px;
+        right: 150px;
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: -33px;
     }
 
     #low_slider > .swiper-container img {

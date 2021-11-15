@@ -112,7 +112,7 @@ ul { list-style: none; }
     }
 
     #main_header .nav {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     #main_header .nav li {
@@ -122,7 +122,6 @@ ul { list-style: none; }
     #main_header > .icons {
         display: none;
     }
-
 
     .info > h3 {
         font-size: 12px;
