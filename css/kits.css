@@ -159,80 +159,84 @@
 
 @media screen and (max-width:767px) {
     #kits {
-        height: 500px;
-        margin-top: 80px;
+        height: 1400px;
+        display: block;
+        margin: 45px;
     }
     
     .care .care_bak {
         background: url(../images/care.jpg);
         background-size: cover;
         background-position:center;
-        height: 200px;
-        width: 110px;
-        margin: 20px;
+        height: 350px;
+        width: 300px;
+        
+        
     }
     
     .routine .routine_bak {
         background: url(../images/routine.jpg);
         background-size: cover;
         background-position:center;
-        height: 200px;
-        width: 110px;
-        margin: 20px;
+        height: 350px;
+        width: 300px;
+        margin: 30px;
     }
     
     .comfort .comfort_bak {
         background: url(../images/comfort.jpg);
         background-size: cover;
         background-position:center;
-        height: 200px;
-        width: 120px;
-        margin: 20px;
+        height: 350px;
+        width: 300px;
+        margin: 30px;
     }
 
     .care .care_bak:hover {
         background: url(../images/care_back.jpg);
         background-size: cover;
         background-position:center;
-        height: 200px;
-        width: 110px;
+        height: 350px;
+        width: 300px;
     }
     
     .routine .routine_bak:hover {
         background: url(../images/routine_back.jpg);
         background-size: cover;
         background-position:center;
-        height: 200px;
-        width: 110px;
+        height: 350px;
+        width: 300px;
     }
     
     .comfort .comfort_bak:hover {
         background: url(../images/comfort_back.jpg);
         background-size: cover;
         background-position:center;
-        height: 200px;
-        width: 120px;
+        height: 350px;
+        width: 300px;
     }
 
     #kits > .care p {
-        margin-top: 5px;
+        margin-top: -20px;
         text-align: center;
         font-weight: bold;
-        font-size: 1px;
+        font-size: 10px;
         line-height: 20px;
     }
     
     #kits > .routine p {
+        margin-top: -20px;
         text-align: center;
         font-weight: bold;
-        font-size: 1px;
+        font-size: 10px;
         line-height: 20px;
     }
     
     #kits > .comfort p {
+        margin-top: -20px;
         text-align: center;
         font-weight: bold;
-        font-size: 1px;
+        font-size: 10px;
         line-height: 20px;
     } 
 

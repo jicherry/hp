@@ -342,15 +342,64 @@ ul { list-style: none; }
 @media screen and (max-width:767px) {
     .serumkind {
         display: flex;
-        /* flex-wrap: wrap; */
         width: 100%;
-        margin: 0 auto;
+        margin: 20px auto;
     }
 
     .serumkind .bak {
         width: 100px;
         height: 130px;
         margin: 40px 23px;
+    }
+
+    .serumkind .muscat_bak{
+        background: url(../images/muscat.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .youth_bak{
+        background: url(../images/youth.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .yellomello_bak{
+        background: url(../images/yellomello.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .purple_bak{
+        background: url(../images/purple.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .deep_bak{
+        background: url(../images/deep.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .chaga_bak{
+        background: url(../images/chaga.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .lip_bak{
+        background: url(../images/lip.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .bag_bak{
+        background: url(../images/bag.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    .serumkind .muscat_bak:hover {
+        background: url("../images/muscat_back.jpg");
+        background-size: cover;
+        background-position: center;
+        animation: fadein 1s;
+        -moz-animation: fadein 1s; /* Firefox */
+        -webkit-animation: fadein 1s; /* Safari and Chrome */
+        -o-animation: fadein 1s; /* Opera */
     }
 
     .serumkind .muscat p {

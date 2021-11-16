@@ -12,7 +12,7 @@ img { border: 0; }
 ul { list-style: none; }
 
 #mainsurebase > .content {
-    margin-top: 300px ;
+    margin-top: 300px;
 }
 
 #mainsurebase > .surebase_slider {
@@ -164,6 +164,17 @@ ul { list-style: none; }
     line-height: 50px;
 }
 
+.biglogo p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 250px;
+    font-weight: bold;
+    position: absolute;
+    right: 50px;
+    top: 1300px;
+    color: #FFF48F;
+}
+
 #mainsurebase > .kits img {
     width: 99.99%;
     margin-bottom: -5px;
@@ -298,5 +309,16 @@ ul { list-style: none; }
         font-weight: bold;
         font-size: 13px;
         line-height: 30px;
+    }
+
+    .biglogo p {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 100px;
+        font-weight: bold;
+        position: absolute;
+        right: 10px;
+        top: 800px;
+        color: #FFF48F;
     }
 }
