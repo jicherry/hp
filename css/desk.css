@@ -7,7 +7,7 @@
     font-size: 39px;
     color: #555555;
     line-height: 10;
-    padding-left: 230px;
+    padding-left: 110px;
 }
 
 #center {
@@ -15,11 +15,12 @@
 }
 
 #center > .center_img {
-    width: 50%;
-    margin: 10px auto;
     position: relative;
-    top: 10px;
-    margin-left: 230px;
+    margin-left: 110px;
+}
+
+#center > .center_img img {
+    width: 1500px;
 }
 
 #center > .center_text {
@@ -38,32 +39,94 @@
     padding-left: 180px;
 }
 
-.hr {
-    width: 100px;
+.customer p {
+    position: absolute;
+    top: 135%;
+    left: 120px;
+    font-weight: bold;
+}
+
+.customer hr {
+    position: absolute;
+    top: 140%;
+    left: 110px;
+    width: 1505px;
+}
+
+.customer2 p {
+    position: absolute;
+    top: 150%;
+    left: 130px;
+    font-weight: bold;
+}
+
+.customer2 hr {
+    position: absolute;
+    top: 155%;
+    left: 110px;
+    width: 1505px;
+}
+
+.customer3 p {
+    position: absolute;
+    top: 160%;
+    left: 130px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+.customer4 p {
+    position: absolute;
+    top: 206%;
+    left: 130px;
+    font-weight: bold;
+}
+
+.customer4 hr {
+    position: absolute;
+    top: 193%;
+    left: 110px;
+    width: 1505px;
+}
+
+.customer5 hr {
+    position: absolute;
+    top: 212%;
+    left: 110px;
+    width: 1505px;
+}
+
+.customer5 p {
+    position: absolute;
+    top: 217%;
+    left: 130px;
+    font-weight: lighter;
+    line-height: 50px;
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-
-
-}
-
-@media screen and (max-width:767px) {
-    #center {
-        height: 1500px;
+    .text p {
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 25px;
+        color: #555555;
+        line-height: 10;
+        padding-left: 10px;
     }
     
-    #center > .center_img {
-        width: 50px;
-        height: 50px;
-        margin: 10px auto;
-        position: relative;
+    #center {
+        height: 1300px;
+    }
+    
+    #center > .center_img img {
+        width: 100%;
+        height: 200px;
     }
     
     #center > .center_text {
         text-align: center;
         position: absolute;
-        top: 90%;
-        left: 45%;
+        top: 63%;
+        left: 33%;
         transform: translate(-50%, -50%);
     }
     
@@ -71,7 +134,184 @@
         font-size: 20px;
         color: white;
         font-family: 'Black Han Sans', sans-serif;
-        line-height: 4;
-        padding-left: 180px;
+        line-height: 3;
+        
+    }
+
+    .customer p {
+        position: absolute;
+        top: 85%;
+        left: 10px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .customer hr {
+        position: absolute;
+        top: 89%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer2 p {
+        position: absolute;
+        top: 95%;
+        left: 15px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .customer2 hr {
+        position: absolute;
+        top: 99%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer3 p {
+        position: absolute;
+        top: 101%;
+        left: 10px;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    
+    .customer4 p {
+        position: absolute;
+        top: 142%;
+        left: 15px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .customer4 hr {
+        position: absolute;
+        top: 135%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer5 hr {
+        position: absolute;
+        top: 146%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer5 p {
+        position: absolute;
+        top: 150%;
+        left: 10px;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .text p {
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 25px;
+        color: #555555;
+        line-height: 10;
+        padding-left: 10px;
+    }
+    
+    #center {
+        height: 1100px;
+    }
+    
+    #center > .center_img {
+        position: relative;
+        margin-left: -10px;
+    }
+    
+    #center > .center_img img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    #center > .center_text {
+        text-align: center;
+        position: absolute;
+        top: 63%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #center > .center_text p {
+        font-size: 13px;
+        color: white;
+        font-family: 'Black Han Sans', sans-serif;
+        line-height: 2;
+        
+    }
+
+    .customer p {
+        position: absolute;
+        top: 85%;
+        left: 10px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .customer hr {
+        position: absolute;
+        top: 89%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer2 p {
+        position: absolute;
+        top: 95%;
+        left: 15px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .customer2 hr {
+        position: absolute;
+        top: 99%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer3 p {
+        position: absolute;
+        top: 101%;
+        left: 10px;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    
+    .customer4 p {
+        position: absolute;
+        top: 142%;
+        left: 15px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .customer4 hr {
+        position: absolute;
+        top: 135%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer5 hr {
+        position: absolute;
+        top: 146%;
+        left: 10px;
+        width: 100%;
+    }
+    
+    .customer5 p {
+        position: absolute;
+        top: 150%;
+        left: 10px;
+        font-weight: lighter;
+        font-size: 13px;
     }
 }

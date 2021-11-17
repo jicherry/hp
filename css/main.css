@@ -180,7 +180,10 @@
 --swiper-navigation-color: #dddedf;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 700px) and (max-width:1460px) {
+    #main_header > .icons {
+        display: none;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
