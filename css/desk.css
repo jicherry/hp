@@ -11,7 +11,7 @@
 }
 
 #center {
-    height: 1800px;
+    height: 2000px;
 }
 
 #center > .center_img {
@@ -26,8 +26,8 @@
 #center > .center_text {
     text-align: center;
     position: absolute;
-    top: 90%;
-    left: 45%;
+    top: 83%;
+    left: 41%;
     transform: translate(-50%, -50%);
 }
 
