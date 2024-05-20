@@ -1,0 +1,413 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Nanum Gothic', sans-leserif;
+}
+a { text-decoration: none !important; color: black; }
+img { border: 0; }
+ul { list-style: none; }
+
+#main_header {
+    background-color: #E2D7CD;
+}
+.menu img {
+    width: 100%;
+}
+
+.serumkind {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.serumkind .bak {
+    width: 500px;
+    height: 600px;
+    margin: 100px 100px;
+}
+
+.serumkind .muscat_bak{
+    background: url(../images/muscat.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .youth_bak{
+    background: url(../images/youth.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .yellomello_bak{
+    background: url(../images/yellomello.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .purple_bak{
+    background: url(../images/purple.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .deep_bak{
+    background: url(../images/deep.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .chaga_bak{
+    background: url(../images/chaga.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .lip_bak{
+    background: url(../images/lip.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .bag_bak{
+    background: url(../images/bag.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.serumkind .muscat_bak:hover {
+    background: url("../images/muscat_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .youth_bak:hover {
+    background: url("../images/youth_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .yellomello_bak:hover {
+    background: url("../images/yellomello_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .purple_bak:hover {
+    background: url("../images/purple_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .deep_bak:hover {
+    background: url("../images/deep_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .chaga_bak:hover {
+    background: url("../images/chaga_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .lip_bak:hover {
+    background: url("../images/lip_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .bag_bak:hover {
+    background: url("../images/bag_back.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.serumkind .muscat p {
+    position: absolute;
+    left: 215px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .youth p {
+    position: absolute;
+    right: 250px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .yellomello p {
+    position: absolute;
+    left: 215px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .purple p {
+    position: absolute;
+    right: 250px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .deep p {
+    position: absolute;
+    left: 215px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .chaga p {
+    position: absolute;
+    right: 250px;;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .lip p {
+    position: absolute;
+    left: 215px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.serumkind .bag p {
+    position: absolute;
+    right: 250px;
+    margin-top: -60px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+#low_slider > .swiper-container {
+    margin-top: 220px;
+}
+
+#low_slider > .swiper-container img {
+    display: flex;
+    width: 550px;
+    height: 750px;
+}
+
+.swiper-button-prev.swiper-button-custom,
+.swiper-button-next.swiper-button-custom {
+--swiper-navigation-color: #dddedf;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .serumkind {
+        display: flex;
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .serumkind .bak {
+        width: 350px;
+        height: 400px;
+        margin: 60px 50px;
+    }
+
+    #low_slider > .swiper-container img {
+        display: flex;
+        width: 300px;
+        height: 400px;
+    }
+
+    .swiper-button-prev.swiper-button-custom,
+    .swiper-button-next.swiper-button-custom {
+        position: absolute;
+        top: 55%;
+    }
+
+    .serumkind .muscat p {
+        position: absolute;
+        left: 130px;
+        font-size: 15px;
+    }
+    
+    .serumkind .youth p {
+        position: absolute;
+        right: 30px;
+        font-size: 15px;
+    }
+    
+    .serumkind .yellomello p {
+        position: absolute;
+        left: 130px;
+        font-size: 15px;
+    }
+    
+    .serumkind .purple p {
+        position: absolute;
+        right: 30px;
+        font-size: 15px;
+    }
+    
+    .serumkind .deep p {
+        position: absolute;
+        left: 130px;
+        font-size: 15px;
+    }
+    
+    .serumkind .chaga p {
+        position: absolute;
+        right: 30px;
+        font-size: 15px;
+    }
+    
+    .serumkind .lip p {
+        position: absolute;
+        left: 130px;
+        font-size: 15px;
+    }
+    
+    .serumkind .bag p {
+        position: absolute;
+        right: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .serumkind {
+        display: flex;
+        /* flex-wrap: wrap; */
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .serumkind .bak {
+        width: 200px;
+        height: 300px;
+        margin: 40px 30px;
+    }
+
+    .serumkind .muscat p {
+        position: absolute;
+        left: 80px;
+        font-size: 12px;
+    }
+    
+    .serumkind .youth p {
+        position: absolute;
+        right: 30px;
+        font-size: 12px;
+    }
+    
+    .serumkind .yellomello p {
+        position: absolute;
+        left: 80px;
+        font-size: 12px;
+    }
+    
+    .serumkind .purple p {
+        position: absolute;
+        right: 30px;
+        font-size: 12px;
+    }
+    
+    .serumkind .deep p {
+        position: absolute;
+        left: 80px;
+        font-size: 12px;
+    }
+    
+    .serumkind .chaga p {
+        position: absolute;
+        right: 30px;
+        font-size: 12px;
+    }
+    
+    .serumkind .lip p {
+        position: absolute;
+        left: 80px;
+        font-size: 12px;
+    }
+    
+    .serumkind .bag p {
+        position: absolute;
+        right: 30px;
+        font-size: 12px;
+    }
+
+    #low_slider > .swiper-container img {
+        display: flex;
+        width: 200px;
+        height: 300px;
+    }
+
+    .swiper-button-prev.swiper-button-custom,
+    .swiper-button-next.swiper-button-custom {
+        position: absolute;
+        top: 60%;
+    }
+}
