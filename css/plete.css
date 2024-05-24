@@ -1,0 +1,180 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Nanum Gothic', sans-leserif;
+}
+
+a { text-decoration: none !important; color: black; }
+img { border: 0; }
+ul { list-style: none; }
+
+#mainsurebase > .content {
+    margin-top: 300px ;
+}
+
+#mainsurebase > .surebase_slider {
+    height: 1200px;
+}
+
+#mainsurebase > .surebase_slider img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#mainsurebase > .surebase_content {
+    height: 2700px;
+
+}
+
+
+#mainsurebase > .surebase_content > .nudy > .nudybak {
+    background: url(../images/nudy.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 1600px;
+    left: 200px;
+    width: 650px;
+    height: 750px;
+    margin-top: -50px;
+}
+
+#mainsurebase > .surebase_content > .glad > .gladbak {
+    background: url(../images/glad.jpg);
+    background-size: cover;
+    position: absolute;
+    right: 300px;
+    top: 2100px;
+    width: 650px;
+    height: 750px;
+    margin-top: 350px;
+}
+
+#mainsurebase > .surebase_content > .sun > .sunbak {
+    background: url(../images/sun.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 200px;
+    top: 2810px;
+    width: 650px;
+    height: 750px;
+    margin-top: 439px;
+}
+
+.surebase_content > .nudy > .nudybak:hover {
+    background: url(../images/nudy_back.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 200px;
+    width: 600px;
+    height: 700px;
+    margin-top: 150px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.surebase_content > .glad > .gladbak:hover {
+    background: url(../images/glad_back.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.surebase_content > .sun > .sunbak:hover {
+    background: url(../images/sun_back.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.playerBox {
+    background: #000;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.surebase_content .nudy p { 
+    position: absolute;
+    right: 330px;
+    top: 1820px;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 50px;
+}
+
+.surebase_content .glad p { 
+    position: absolute;
+    left: 330px;
+    top: 2730px;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 50px;
+}
+
+.surebase_content .sun p {
+    position: absolute;
+    right: 430px;
+    top: 3500px;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 50px;
+}
+
+#mainsurebase > .kits img {
+    width: 99.99%;
+    margin-bottom: -5px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+}
+
+@media screen and (max-width:767px) {
+    
+}

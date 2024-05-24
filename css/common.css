@@ -1,0 +1,129 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Nanum Gothic', sans-leserif;
+}
+a { text-decoration: none !important; color: black; }
+img { border: 0; }
+ul { list-style: none; }
+
+#main_header {
+    display: flex;
+}
+
+#main_header .logo a {
+    font-size: 45px; 
+    line-height: 120px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#main_header .nav {
+    display: flex;
+    font-size: 25px;
+}
+
+#main_header .nav li {
+    margin: auto;
+    padding: 55px;
+}
+
+#main_header > .icons {
+    display: flex;
+    font-size: 30px;
+    line-height: 120px;
+    position: absolute;
+    right: 100px;
+}
+
+#main_footer {
+    display: flex;
+    background-color: #E2D7CD;
+    height: 200px;
+    margin-top: -5px;
+}
+
+.info {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.info > h3 {
+    color: white;
+    text-align: center;
+}
+
+.info > ul {
+    text-align: center;
+}
+
+.info > ul > li > a {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #main_header .logo a {
+        font-size: 30px; 
+    }
+
+    #main_header .nav {
+        font-size: 13px;
+    }
+
+    #main_header .nav li {
+        padding: 15px;
+    }
+
+    #main_header > .icons {
+        display: none;
+    }
+
+    .info > h3 {
+        font-size: 15px;
+    }
+
+    .info > ul {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    #main_header {
+        flex-direction: column;
+    }
+
+    #main_header .logo a {
+        font-size: 20px; 
+    }
+
+    #main_header .nav {
+        font-size: 15px;
+    }
+
+    #main_header .nav li {
+        padding: 10px;
+    }
+
+    #main_header > .icons {
+        display: none;
+    }
+
+
+    .info > h3 {
+        font-size: 12px;
+    }
+
+    .info > ul {
+        font-size: 12px;
+    }
+}
