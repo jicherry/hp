@@ -4,7 +4,6 @@
 
 * {
   margin: 0;
-  padding: 0;
   font-family: "Nanum Gothic", sans-leserif;
 }
 a {
@@ -23,20 +22,21 @@ ul {
 }
 
 #main_header .logo a {
-  font-size: 45px;
-  line-height: 120px;
+  font-size: 35px;
+  line-height: 100px;
   font-weight: bold;
   margin: 50px;
 }
 
 #main_header .nav {
   display: flex;
-  font-size: 25px;
+  line-height: 60px;
+  font-size: 15px;
 }
 
 #main_header .nav li {
   margin: auto;
-  padding: 55px;
+  padding: 25px;
 }
 
 #main_header > .icons {
