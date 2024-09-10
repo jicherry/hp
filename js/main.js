@@ -4,20 +4,30 @@ let swiper = new Swiper(".swiper-container", {
     prevEl: ".swiper-button-prev",
   },
   autoplay: {
-    delay: 3000,
+    delay: 2000,
   },
   speed: 2000,
-  effect: "fade",
+  effect: "slide",
 });
 
 jQuery(".player").YTPlayer();
 
-// $(".favorite_pink img").mouseover(function() {
-//   var src = $(this).attr("src");
+const header = document.querySelector(".main_header");
 
-//   if(src == "./images/pink_back.jpg") {
-//     $(this).attr("src", "./images/pink.jpg");
+// window.addEventListener("scroll", () => {
+//   if (window.scrollY > 500) {
+//     header.classList.add("scrolled");
 //   } else {
-//     $(this).attr("src", "./images/pink_back.jpg");
+//     header.classList.remove("scrolled");
 //   }
 // });
+
+document.addEventListener("scroll", function () {
+  const header = document.querySelector(".main_header");
+  if (window.scrollY > 200) {
+    // 스크롤이 50px 이상일 때
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});

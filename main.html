@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>completone</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="./library/fontawesome-free-5.15.3-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./library/swiper/swiper.min.css" />
+    <link
+      href="./library/YTPPlayer/css/jquery.mb.YTPlayer.min.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main_header">
+      <div>
+        <a class="logo" href="main.html">completone</a>
+      </div>
+      <ul class="nav">
+        <li><a href="./pages/serumkind.html">SERUMKIND</a></li>
+        <li><a href="./pages/surebase.html">SUREBASE</a></li>
+      </ul>
+    </header>
+    <div id="main_container">
+      <section class="content main_slider">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+              <div class="text-overlay">SERUM.<br>
+              SIMPLE BUT COMPLETE.</div>
+            </div>
+            <div class="swiper-slide slide2">
+              <div class="text-overlay2">YELLOW MELLO DROP<br>
+                <P class="overlay">싱그러운 모과가 선사하는 포어 밸런싱</P>
+              </div>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-custom"></div>
+          <div class="swiper-button-prev swiper-button-custom"></div>
+        </div>
+      </section>
+      <!-- Main 하단 -->
+      <section class="ourstory">
+        <div class="main_section">
+          <h4 class="main_text">OUR STORY</h4>
+          <div class="main_item">
+            <div class="item_content">
+              <h1>
+                SERUM. SIMPLE<br />
+                BUT COMPLETE.
+              </h1>
+              <p>
+                피부는 복잡한 존재지만 원하는 것은 단순합니다.<br />
+                피부가 진정 필요로 하는 '하나'에 집중하는 것.<br />
+                세럼카인드는 피부 고민의 이상적인 해답을 '세럼'에서 찾습니다.<br>
+                최상의 원료, 최대의 함량, 최고의 순전함을 고스란히 담아 피부에 전합니다.
+              </p>
+              <button class="more">View More</button>
+            </div>
+            <div>
+              <img class="bottom_img" src="/images/main_bottom.jpg" />
+            </div>
+        </div>
+        <div class="main_item">
+          <div>
+            <img class="bottom_img2" src="/images/main_bottom2.jpg" />
+          </div>
+          <div class="item_content">
+            <h1>CLEAN CAREKIT</h1>
+            <p>
+              피부 고민과 일상에 필요한 루틴을 하나로<br />
+              해결할 수 있는<br />
+              세럼카인드의 클린 케어 키트로 나에게 필요한<br />
+              세럼을 직접 구성하고 특별한 할인을 만나보세요.
+            </p>
+            <button class="more">View More</button>
+          </div>
+        </div>
+      </section>
+      <!-- Video -->
+      <section class="content water_video">
+        <div class="playerBox" id="v1" style="background: #7698c6"></div>
+        <div
+          id="p1"
+          class="player"
+          data-property="{videoURL:'7Nuj5140aLE', containment:'#v1', showControls:false, autoPlay:true, loop:2, mute:true, startAt:9, stopAt:100, opacity:1, quality:'default', playOnlyIfVisible: true}"
+        ></div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer id="main_footer">
+      <div class="info">
+        <div class="info_t">
+          <h1>completone</h1>
+          <p>CUSTOMER CENTER<br>
+          070 - 000 - 0000<br>
+          10 : 00 - 17 : 00<br>
+          LUNCH TIME 11 : 30 - 13 : 00<br>
+          토, 일요일 및 공휴일 휴일
+          </p>
+        </div>
+        <div class="info_t2">
+          <h2>SHOP</h2>
+          <h2>EVENT</h2>
+          <h2>ABOUT</h2>
+          <h2>DESK</h2>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./library/YTPPlayer/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./library/swiper/swiper.min.js"></script>
+    <!-- <script src="./js/common.js"></script> -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
