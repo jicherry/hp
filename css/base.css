@@ -148,24 +148,29 @@ ul {
 }
 
 .base_bottom {
+  overflow: hidden;
   height: 17rem;
   background: url(/images/base_bottom.png);
   background-size: cover;
   background-position: center;
 }
 
-.base_h3 {
+.base_bottom h4 {
   color: white;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 550;
   text-align: center;
+  position: relative;
+  top: 3.7rem;
+  left: 5.2rem;
 }
 
 .base_p {
   color: white;
   margin-top: 6rem;
-  margin-left: 2rem;
+  margin-left: 24.6rem;
   font-weight: 500;
+  line-height: 1.8rem;
 }
 
 /* footer */
