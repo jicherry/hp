@@ -12,16 +12,6 @@ let swiper = new Swiper(".swiper-container", {
 
 jQuery(".player").YTPlayer();
 
-const header = document.querySelector(".main_header");
-
-// window.addEventListener("scroll", () => {
-//   if (window.scrollY > 500) {
-//     header.classList.add("scrolled");
-//   } else {
-//     header.classList.remove("scrolled");
-//   }
-// });
-
 document.addEventListener("scroll", function () {
   const header = document.querySelector(".main_header");
   if (window.scrollY > 200) {

@@ -23,7 +23,7 @@ ul {
 
 .main_header {
   top: 0;
-  height: 3.5rem;
+  height: 4.2rem;
   display: flex;
   position: fixed;
   width: 100%;
@@ -31,14 +31,48 @@ ul {
   z-index: 100;
 }
 
+.main_header a {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.main_header a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.7rem;
+  width: 100%;
+  height: 0.1rem;
+  background: #000;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease;
+}
+
+.main_header a:hover::after {
+  transform: scaleX(1);
+}
+
+.header_logo {
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+  margin-left: 1.3rem;
+}
+
 .logo {
   font-size: 2rem;
-  margin: 2rem;
+  display: flex;
+  align-items: center;
   color: rgb(0, 0, 0);
 }
 
 .logo2 {
   font-size: 0.9rem;
+  display: flex;
+  align-items: center;
   color: rgb(0, 0, 0);
 }
 
@@ -46,17 +80,17 @@ ul {
 
 .serumkind_top {
   height: 28rem;
-  background-image: url("/images/serumkind_top.jpeg"); /* 이미지 경로 */
-  background-size: cover; /* 이미지가 컨테이너를 완전히 커버하도록 설정 */
-  background-position: center; /* 이미지가 컨테이너의 중앙에 위치하도록 설정 */
-  background-repeat: no-repeat; /* 이미지 반복을 방지 */
+  background-image: url("/images/serumkind_top.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .topimg_text {
   font-weight: bold;
   position: absolute;
-  top: 39%;
-  left: 23%;
+  top: 43%;
+  left: 19%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 5em;
@@ -65,8 +99,9 @@ ul {
 
 .topimg_text2 {
   position: absolute;
-  top: 50%;
-  left: 23%;
+  font-weight: 550;
+  top: 54%;
+  left: 26.5%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 1em;
@@ -76,7 +111,8 @@ ul {
 .serumkind {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .serumkind .bak {
@@ -206,42 +242,47 @@ ul {
   -o-animation: fadein 1s; /* Opera */
 }
 
-.serumkind .muscat p {
+.price {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.serumkind .muscat h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .youth p {
+.serumkind .youth h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .yellomello p {
+.serumkind .yellomello h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .purple p {
+.serumkind .purple h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .deep p {
+.serumkind .deep h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .chaga p {
+.serumkind .chaga h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .lip p {
+.serumkind .lip h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
 
-.serumkind .bag p {
+.serumkind .bag h5 {
   text-align: center;
   margin-top: -3.5rem;
 }
