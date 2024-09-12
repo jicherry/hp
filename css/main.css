@@ -100,9 +100,9 @@ ul {
 }
 
 #main_container > .content.main_slider {
-  margin-top: -2rem;
   height: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 #main_container > .content.main_slider img {
