@@ -4,6 +4,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
 }
 
 * {
@@ -63,7 +64,8 @@ ul {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: lighter;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
@@ -71,6 +73,7 @@ ul {
 
 .logo2 {
   font-size: 0.9rem;
+  font-weight: 550;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
@@ -113,6 +116,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 .serumkind .bak {
@@ -366,155 +370,4 @@ ul {
 .info_t2 {
   margin-top: 3.7rem;
   margin-right: 25rem;
-}
-
-/* 반응형 */
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .serumkind {
-    display: flex;
-    width: 900px;
-    margin: 0 auto;
-  }
-
-  .serumkind .bak {
-    width: 350px;
-    height: 400px;
-    margin: 60px 50px;
-  }
-
-  #low_slider > .swiper-container img {
-    display: flex;
-    width: 300px;
-    height: 400px;
-  }
-
-  .swiper-button-prev.swiper-button-custom,
-  .swiper-button-next.swiper-button-custom {
-    position: absolute;
-    top: 55%;
-  }
-
-  .serumkind .muscat p {
-    position: absolute;
-    left: 130px;
-    font-size: 15px;
-  }
-
-  .serumkind .youth p {
-    position: absolute;
-    right: 30px;
-    font-size: 15px;
-  }
-
-  .serumkind .yellomello p {
-    position: absolute;
-    left: 130px;
-    font-size: 15px;
-  }
-
-  .serumkind .purple p {
-    position: absolute;
-    right: 30px;
-    font-size: 15px;
-  }
-
-  .serumkind .deep p {
-    position: absolute;
-    left: 130px;
-    font-size: 15px;
-  }
-
-  .serumkind .chaga p {
-    position: absolute;
-    right: 30px;
-    font-size: 15px;
-  }
-
-  .serumkind .lip p {
-    position: absolute;
-    left: 130px;
-    font-size: 15px;
-  }
-
-  .serumkind .bag p {
-    position: absolute;
-    right: 30px;
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .serumkind {
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  .serumkind .bak {
-    width: 200px;
-    height: 300px;
-    margin: 40px 30px;
-  }
-
-  .serumkind .muscat p {
-    position: absolute;
-    left: 80px;
-    font-size: 12px;
-  }
-
-  .serumkind .youth p {
-    position: absolute;
-    right: 30px;
-    font-size: 12px;
-  }
-
-  .serumkind .yellomello p {
-    position: absolute;
-    left: 80px;
-    font-size: 12px;
-  }
-
-  .serumkind .purple p {
-    position: absolute;
-    right: 30px;
-    font-size: 12px;
-  }
-
-  .serumkind .deep p {
-    position: absolute;
-    left: 80px;
-    font-size: 12px;
-  }
-
-  .serumkind .chaga p {
-    position: absolute;
-    right: 30px;
-    font-size: 12px;
-  }
-
-  .serumkind .lip p {
-    position: absolute;
-    left: 80px;
-    font-size: 12px;
-  }
-
-  .serumkind .bag p {
-    position: absolute;
-    right: 30px;
-    font-size: 12px;
-  }
-
-  #low_slider > .swiper-container img {
-    display: flex;
-    width: 200px;
-    height: 300px;
-  }
-
-  .swiper-button-prev.swiper-button-custom,
-  .swiper-button-next.swiper-button-custom {
-    position: absolute;
-    top: 60%;
-  }
 }
