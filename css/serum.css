@@ -92,8 +92,8 @@ ul {
 .topimg_text {
   font-weight: bold;
   position: absolute;
-  top: 43%;
-  left: 19%;
+  top: 43vh;
+  left: 19vw;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 5em;
@@ -103,8 +103,8 @@ ul {
 .topimg_text2 {
   position: absolute;
   font-weight: 550;
-  top: 54%;
-  left: 26.5%;
+  top: 54vh;
+  left: 26.5vw;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 1em;
