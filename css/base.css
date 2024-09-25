@@ -87,13 +87,14 @@ ul {
   background: url(/images/surebase.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .surebase_p {
   font-weight: bold;
   position: absolute;
-  top: 43vh;
-  left: 19vw;
+  top: 250px;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 5em;
