@@ -172,7 +172,7 @@ ul {
 .base_p {
   color: white;
   margin-top: 6rem;
-  margin-left: 30.5rem;
+  margin-left: 26rem;
   font-weight: 500;
   line-height: 1.8rem;
 }
@@ -205,4 +205,9 @@ ul {
 .info_t2 {
   margin-top: 3.5rem;
   margin-right: 25rem;
+}
+
+/* 반응형 */
+
+@media screen and (max-width: 768px) {
 }
