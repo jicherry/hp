@@ -1,4 +1,4 @@
-@charset "UFT-8";
+@charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 
@@ -161,9 +161,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .youth_bak:hover {
@@ -171,9 +171,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .yellomello_bak:hover {
@@ -181,9 +181,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .purple_bak:hover {
@@ -191,9 +191,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .deep_bak:hover {
@@ -201,9 +201,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .chaga_bak:hover {
@@ -211,9 +211,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .lip_bak:hover {
@@ -221,9 +221,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .serumkind .bag_bak:hover {
@@ -231,9 +231,9 @@ ul {
   background-size: cover;
   background-position: center;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .price {
@@ -360,4 +360,77 @@ ul {
 .info_t2 {
   margin-top: 3.7rem;
   margin-right: 25rem;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .logo2 {
+    font-size: 0.7rem;
+  }
+
+  .topimg_text {
+    font-size: 1.8rem;
+  }
+
+  .serumkind {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .serumkind .bak {
+    width: 18.9rem;
+    height: 18rem;
+  }
+
+  .serumkind h5 {
+    font-size: 0.8rem;
+  }
+
+  .serumkind .price {
+    font-size: 0.7rem;
+  }
+
+  #low_slider img {
+    max-width: 20rem;
+    max-height: 30rem;
+    object-fit: contain;
+  }
+
+  #low_slider > .swiper-container {
+    margin-top: 1rem;
+  }
+
+  .info {
+    line-height: 2.7rem;
+  }
+
+  .info_t {
+    margin-top: 0;
+  }
+
+  .info_t h1 {
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+  }
+
+  .info_t p {
+    margin-top: 2.5rem;
+    font-size: 0.7rem;
+  }
 }

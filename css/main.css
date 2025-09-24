@@ -327,11 +327,12 @@ ul {
   }
 
   .logo {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .nav {
     font-size: 0.7rem;
+    padding: 0;
   }
 
   .text-overlay {
@@ -393,15 +394,8 @@ ul {
     margin-top: 7rem;
   }
 
-  .content_water_video {
-    margin-top: 19.5rem;
-  }
-
-  .water_video {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 0;
+  #main_container > .content {
+    margin-top: 22rem;
   }
 
   .water_video iframe {

@@ -210,4 +210,94 @@ ul {
 /* 반응형 */
 
 @media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .logo2 {
+    font-size: 0.7rem;
+  }
+
+  .surebase_p {
+    font-size: 1.8rem;
+  }
+
+  .surebase_item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 5rem;
+    gap: 7rem;
+  }
+
+  .surebase_img {
+    width: auto;
+  }
+
+  .surebase_all {
+    transform: translate(6.8rem, 2rem);
+  }
+
+  .surebase_all h5,
+  p {
+    position: absolute;
+    font-size: 2rem;
+    z-index: 1;
+    font-size: 1rem;
+  }
+
+  .surebase_sub2 {
+    margin-top: 1.9rem;
+    transform: translateX(2rem);
+  }
+
+  .base_bottom {
+    max-width: 27.5rem;
+    margin-top: 6rem;
+    padding: 2rem 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 7rem;
+  }
+
+  .base_bottom h4 {
+    font-size: 0.8rem;
+    transform: translate(-2.5rem, -3.5rem);
+  }
+
+  .base_p {
+    font-size: 0.5rem;
+    margin: 0;
+    transform: translate(6.9rem, 0.5rem);
+    line-height: 2;
+  }
+
+  .info {
+    line-height: 2.7rem;
+  }
+
+  .info_t {
+    margin-top: 0;
+  }
+
+  .info_t h1 {
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+  }
+
+  .info_t p {
+    margin-top: 2.5rem;
+    font-size: 0.7rem;
+  }
 }
